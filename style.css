@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html,
+body
+{
+    /* height: 100vh;
+    width: 100vw; */
+    background: rgb(255, 255, 255);
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(214, 181, 142);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+      width: 100vw;
+      height: auto;
+      position: relative;
+      place-items: center;
+      border-radius: 100em;
+  }
+
+  h1 {
+      margin-top: 0em;
+      font-family: 'poppins';
+      font-size: 1rem;
+  }
+
+  h2 {
+    margin-top: 0em;
+    margin-bottom: 1em;
+    font-family: 'poppins';
+    font-size: 1.4rem;
+}
+
+  p {
+    font-family: 'Poppins light';
+    font-weight: lighter;
+    font-size: 0.7em;
+  }
+
+  span {
+      font-family: 'poppins';
+      font-weight: bold;
+      font-size: 1rem;
+  }
+
+  #date {
+      margin-top: 30px;
+  }
+
+
+
+  @media screen and (min-width: 600px) {
+    img {
+        height: 100vh;
+        width: auto;
+    }
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: rgb(214, 181, 142);
+    width: 100vw;
+    height: 100vh;
+  }
+  .centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cincin {
+      width: 70vw;
+      border-radius: 2em;
+  }
+
+  .close {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #onet {
+    width: 60%;
+  }
+
+
+
